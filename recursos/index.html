@@ -61,6 +61,10 @@
       }
     </style>
     <script type="module">
+      if (!localStorage.getItem("logged")) {
+        location.href = "/login/";
+      }
+
       document.querySelector("#navbarNav");
       const t = document.querySelector("#logout-link"),
         a = location.href,
