@@ -49,10 +49,10 @@ h6 {
   background-color: var(--color-primario);
   color: var(--color-secundario);
 }
-
+/* 
 .navbar-brand {
   padding-left: 150px;
-}
+} */
 
 .navbar-nav {
   padding-right: 150px;
